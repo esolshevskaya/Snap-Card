@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Snap-Card/static/css/main.f000ef85.css",
+    "main.js": "/Snap-Card/static/js/main.41de8d25.js",
+    "static/js/453.4c29fa21.chunk.js": "/Snap-Card/static/js/453.4c29fa21.chunk.js",
+    "index.html": "/Snap-Card/index.html",
+    "main.f000ef85.css.map": "/Snap-Card/static/css/main.f000ef85.css.map",
+    "main.41de8d25.js.map": "/Snap-Card/static/js/main.41de8d25.js.map",
+    "453.4c29fa21.chunk.js.map": "/Snap-Card/static/js/453.4c29fa21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f000ef85.css",
+    "static/js/main.41de8d25.js"
+  ]
+}
