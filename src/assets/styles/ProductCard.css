@@ -150,7 +150,6 @@
     gap: clamp(0.4rem, 1.5vw, 0.6rem);
 }
 
-/* Адаптивность для очень маленьких экранов */
 @media (max-width: 360px) {
     .product-card {
         height: min(350px, 80vh);

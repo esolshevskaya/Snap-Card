@@ -1,7 +1,6 @@
-// src/api/productsApi.ts
 import { Product } from "../types/Product";
 
-const ACCESS_KEY = 'CKutfheEi1aBAHU0riX6Ag-c2WE8WoiZnMfprXGKPJk';
+const ACCESS_KEY = 'lIT2QkWyVv_0lyNPDcU1hPPEN0feeoNF8mmztvSIAvU';
 
 export const fetchProductsApi = async (): Promise<Product[]> => {
     try {

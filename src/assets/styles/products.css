@@ -109,11 +109,11 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1rem;
     margin-bottom: 2rem;
-    justify-items: center; /* Добавьте эту строку */
+    justify-items: center;
 }
 
 .product-card {
-    max-width: 300px; /* Добавьте эту строку */
+    max-width: 300px;
     width: 100%;
 }
 

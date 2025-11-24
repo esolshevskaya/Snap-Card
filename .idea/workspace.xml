@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39cd66b-ddfd-49d6-a811-93c533aa8f3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/placeholder-image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/productsApi.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/CheckIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/CloseIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/EditIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/HeartIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/PlusIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/TrashIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/CreateProductPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/ProductCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/ProductDetailPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CreateProductPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProductDetailPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProductsPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/productsSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/productsApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/productsApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/ProductCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/ProductCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763934442334</updated>
       <workItem from="1763934443810" duration="8387000" />
-      <workItem from="1764006954133" duration="8264000" />
+      <workItem from="1764006954133" duration="9583000" />
     </task>
     <servers />
   </component>
