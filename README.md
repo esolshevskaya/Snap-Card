@@ -1,6 +1,6 @@
 # SnapCard App
 
-**Ссылка на веб-приложение:** [Добавьте ссылку на ваше приложение]
+**Ссылка на веб-приложение:** https://esolshevskaya.github.io/Snap-Card/
 
 SnapCard - это современное веб-приложение для создания и управления карточками с фотографиями. Пользователи могут просматривать коллекцию фотографий из Unsplash API, создавать собственные карточки, редактировать их, добавлять в избранное и осуществлять поиск по коллекции. Приложение демонстрирует навыки работы с React, Redux Toolkit, TypeScript и REST API.
 
@@ -75,32 +75,6 @@ npm start
 ### Сборка для production:
 ```bash
 npm run build
-```
-
-## Структура проекта
-
-```
-src/
-├── components/          # React компоненты
-│   ├── Header.tsx
-│   ├── ProductCard.tsx
-│   └── ...
-├── pages/              # Страницы приложения
-│   ├── ProductsPage.tsx
-│   ├── CreateProductPage.tsx
-│   └── ProductDetailPage.tsx
-├── store/              # Redux store и slices
-│   ├── store.ts
-│   ├── productsSlice.ts
-│   └── hooks.ts
-├── types/              # TypeScript типы
-│   └── Product.ts
-├── api/                # API функции
-│   └── productsApi.ts
-├── assets/             # Стили и иконки
-│   ├── styles/
-│   └── icons/
-└── App.tsx             # Главный компонент
 ```
 
 **Связаться со мной:**
