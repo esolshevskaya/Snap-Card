@@ -1,46 +1,109 @@
-# Getting Started with Create React App
+# SnapCard App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Ссылка на веб-приложение:** [Добавьте ссылку на ваше приложение]
 
-## Available Scripts
+SnapCard - это современное веб-приложение для создания и управления карточками с фотографиями. Пользователи могут просматривать коллекцию фотографий из Unsplash API, создавать собственные карточки, редактировать их, добавлять в избранное и осуществлять поиск по коллекции. Приложение демонстрирует навыки работы с React, Redux Toolkit, TypeScript и REST API.
 
-In the project directory, you can run:
+## Технологии
 
-### `npm start`
+- **React** - построение интерфейса, управление компонентами
+- **TypeScript** - типизация, повышение надёжности кода
+- **Redux Toolkit** - управление состоянием приложения
+- **React Router** - навигация между страницами
+- **REST API** (Unsplash API) - получение фотографий
+- **HTML5, CSS3** - семантическая разметка, адаптивная верстка
+- **LocalStorage** - сохранение состояния приложения
+- **CSS Grid & Flexbox** - современные техники вёрстки
+- **React Hooks** - управление состоянием компонентов
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## UX/UI
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Адаптивный дизайн** - корректное отображение на мобильных устройствах, планшетах и десктопах
+- **Интуитивный интерфейс** - понятная навигация, интуитивно понятное взаимодействие
+- **Современный дизайн** - чистый минималистичный интерфейс с плавными анимациями
+- **Визуальные состояния** - hover-эффекты, состояния загрузки, обработка ошибок
 
-### `npm test`
+## Функционал
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Основные возможности:
+- **Просмотр карточек** - сетка адаптивных карточек с фотографиями
+- **Создание карточек** - форма для добавления пользовательских карточек
+- **Редактирование** - inline-редактирование заголовков и описаний
+- **Избранное** - ставить лайки на карточки с фильтрацией
+- **Поиск** - поиск по названию карточек
+- **Сортировка** - сортировка по алфавиту (A-Z, Z-A)
+- **Пагинация** - постраничная навигация для больших коллекций
+- **Детальные страницы** - просмотр полной информации о карточке
 
-### `npm run build`
+### Дополнительные функции:
+- **Валидация форм** - проверка вводимых данных при создании карточек
+- **Обработка ошибок** - graceful degradation при проблемах с API
+- **Persistent state** - сохранение состояния в LocalStorage (опционально)
+- **Fallback images** - заглушки для битых изображений
+- **Оптимизация производительности** - мемоизация, lazy loading
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Установка и запуск
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Предварительные требования:
+- Node.js (версия 14 или выше)
+- npm или yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Шаги установки:
 
-### `npm run eject`
+1. **Клонирование репозитория:**
+```bash
+git clone [URL вашего репозитория]
+cd snapcard
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. **Установка зависимостей:**
+```bash
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Настройка API ключа:**
+   - Получите API ключ на [Unsplash Developers](https://unsplash.com/developers)
+   - Замените `ACCESS_KEY` в файле `productsApi.ts`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. **Запуск приложения:**
+```bash
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Приложение будет доступно по адресу: `http://localhost:3000`
 
-## Learn More
+### Сборка для production:
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Структура проекта
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+src/
+├── components/          # React компоненты
+│   ├── Header.tsx
+│   ├── ProductCard.tsx
+│   └── ...
+├── pages/              # Страницы приложения
+│   ├── ProductsPage.tsx
+│   ├── CreateProductPage.tsx
+│   └── ProductDetailPage.tsx
+├── store/              # Redux store и slices
+│   ├── store.ts
+│   ├── productsSlice.ts
+│   └── hooks.ts
+├── types/              # TypeScript типы
+│   └── Product.ts
+├── api/                # API функции
+│   └── productsApi.ts
+├── assets/             # Стили и иконки
+│   ├── styles/
+│   └── icons/
+└── App.tsx             # Главный компонент
+```
+
+**Связаться со мной:**
+o-alena-o@yandex.ru
+
+*Приложение разработано в образовательных целях для демонстрации навыков фронтенд-разработки.*
